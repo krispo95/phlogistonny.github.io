@@ -1,0 +1,47 @@
+.main-table {
+    margin-left: 200px; 
+    margin: 5px;
+    height: 85%;
+    width: 95%;
+    border: 3px solid red
+}
+
+.main-table td.td-main {
+    /*width: 100px; */
+    border: 1px double black
+}
+
+.menu {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.menu p {
+    margin-top: 1px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+
+.reg-form {
+    margin: 10px;
+}
+
+.article-text {
+    font: 12pt small-caps;
+}
+
+.picture-name{
+    font: italic 110% sans-serif;     
+}
+
+.img-article {
+    border: 3px solid gray;
+    
+}
+
+.table-style{
+    background: #ebdea4a9;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: grey 2px 2px 2px;
+}
