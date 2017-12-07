@@ -8,18 +8,23 @@
 
 .main-table td.td-main {
     /*width: 100px; */
-    border: 1px double black
+    border: 1px double black 
 }
 
 .menu {
     margin: 10px;
-    border: 2px solid black;
+    border: none;
+    background: #ebdea4a9;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: grey 2px 2px 2px 
 }
 
 .menu p {
     margin-top: 1px;
     padding: 4px;
-    border: 1px solid gray;
+    border: none;
+    box-shadow: grey 2px 2px 2px 
 }
 
 .reg-form {
@@ -35,7 +40,11 @@
 }
 
 .img-article {
-    border: 3px solid gray;
+    border: none;
+    float:right; 
+    margin: 7px 7px 7px 7px; 
+    width: 25%;
+    box-shadow: grey 2px 2px 2px;
     
 }
 
@@ -43,5 +52,12 @@
     background: #ebdea4a9;
     margin: 10px;
     padding: 10px;
-    box-shadow: grey 2px 2px 2px;
+    
+}
+
+.menu-style{
+   background: #ebdea4a9;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: grey 2px 2px 2px 
 }
