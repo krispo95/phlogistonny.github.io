@@ -61,3 +61,12 @@
     padding: 10px;
     box-shadow: grey 2px 2px 2px 
 }
+
+.left{
+    float:left;
+    width: 80%;
+  }
+  .right{
+    float: right;
+    width: 20%;
+  }
