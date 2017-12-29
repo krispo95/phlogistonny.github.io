@@ -1,6 +1,7 @@
 var title = document.getElementById("a-title");
 var text = document.getElementById("a-text");
 var img = document.getElementById("a-img");
+var popup = document.getElementById("a-popup")
 var i = 1;
 var arrObj = [
     {
@@ -47,4 +48,10 @@ function prevPage(){
     }
     title.innerHTML = arrObj[i].title;
     text.innerHTML = arrObj[i].text;
+}
+function addArticle(){
+    popup.style.visibility = "visible"
+}
+function closePopup(){
+    popup.style.visibility = "hidden"
 }

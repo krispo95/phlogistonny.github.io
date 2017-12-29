@@ -3,23 +3,39 @@
         <meta charset="utf-8"/>
         <title>Beatiful</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/vendor/fa/css/font-awesome.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     </head>
+
     <body>
         <header>
-
         </header>
-
+        
             <table class="main-table">
+                <div id="a-popup" class="b-popup">
+                    
+                        <div class="b-popup-content">
+                            <p style="margin: 1px; text-align: right"onclick="closePopup()"><i class="fa fa-window-close" aria-hidden="true"></i></p>
+                            <p>Добавьте свою статью</p> 
+                            <form style="width: 100%">
+                                <p><input style="width: 100%" name="title"> </p>
+                                <p> <textarea style="width: 100%" rows="7"></textarea></p>
+                                <p><input style="width: 100%" type="submit"></p>
+                                
+                            </form>
+                        </div>
+                </div>
                 <tr>
                     <td style="border: none; width: 5%">
 
                     </td>
                     <td class="td-main"  style="width: 15%">
-                        <div class="menu p">
+                        <div class="menu">
                                 <p><i><b>Войти</b></i></p>
                                 <p><i><b>Новости</b></i></p>
                                 <p><i><b>Картинки</b></i></p>
+                                <p class="single-p"onclick="addArticle()">
+                                    <i><b>Добавить статью</b></i></p>
                         </div>
                         <form class="reg-form" action="/contact" method="post">
                             <input type="text"/>
@@ -44,7 +60,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </td>
                 </tr>
             </table>
