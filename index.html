@@ -18,9 +18,9 @@
                             <p style="margin: 1px; text-align: right"onclick="closePopup()"><i class="fa fa-window-close" aria-hidden="true"></i></p>
                             <p>Добавьте свою статью</p> 
                             <form style="width: 100%">
-                                <p><input style="width: 100%" name="title"> </p>
-                                <p> <textarea style="width: 100%" rows="7"></textarea></p>
-                                <p><input style="width: 100%" type="submit"></p>
+                                <p><input style="width: 100%" name="title" placeholder="Заголовок" id="input-title"> </p>
+                                <p> <textarea style="width: 100%" rows="7" placeholder="Текст статьи" id="input-article"></textarea></p>
+                                <p><input style="width: 100%" type="button" value="Добавить" onclick="addArticle()" ></p>
                                 
                             </form>
                         </div>
@@ -34,7 +34,7 @@
                                 <p><i><b>Войти</b></i></p>
                                 <p><i><b>Новости</b></i></p>
                                 <p><i><b>Картинки</b></i></p>
-                                <p class="single-p"onclick="addArticle()">
+                                <p class="single-p"onclick="showPopup()">
                                     <i><b>Добавить статью</b></i></p>
                         </div>
                         <form class="reg-form" action="/contact" method="post">
@@ -66,6 +66,7 @@
 
         <footer>
                 <script src="js/main.js"></script>
+                <script src="js/test.js"></script>
 
         </footer>
     </body>

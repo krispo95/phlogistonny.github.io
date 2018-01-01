@@ -49,9 +49,12 @@ function prevPage(){
     title.innerHTML = arrObj[i].title;
     text.innerHTML = arrObj[i].text;
 }
-function addArticle(){
+function showPopup(){
     popup.style.visibility = "visible"
 }
 function closePopup(){
     popup.style.visibility = "hidden"
+}
+function addArticle(){
+   
 }
