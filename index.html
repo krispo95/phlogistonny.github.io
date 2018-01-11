@@ -2,16 +2,15 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Beatiful</title>
+    <title>Beautiful</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/vendor/fa/css/font-awesome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
-    </header>
+<body style="background-color: rgb(255, 236, 198)">
+    <!-- <img src="img/fen.png" style="width: 5%"> -->
 
     <table class="main-table">
         <div id="a-popup" class="b-popup">
@@ -35,10 +34,10 @@
             </div>
         </div>
         <tr>
-            <td style="border: none; width: 5%">
+            <td style="border: none; width: 2%">
 
             </td>
-            <td class="td-main" style="width: 15%">
+            <td style="width: 15%">
                 <div class="menu">
                     <p>
                         <i>
@@ -55,7 +54,7 @@
                             <b>Картинки</b>
                         </i>
                     </p>
-                    <p class="vol-button" onclick="showPopup()">
+                    <p onclick="showPopup()">
                         <i>
                             <b>Добавить статью</b>
                         </i>
@@ -74,11 +73,11 @@
                             </div>
                         </div>
                         <div class="article-text" id="a-text">
-                            <img id="a-img" class="img-article" src="img/123.jpg" width="100%">
+                            <!-- <img id="a-img" class="img-article" src="img/123.jpg" width="100%"> -->
                         </div>
                         <div >
-                            <p style="display:inline" class="vol-button" onclick="prevPage()">Prev</p>
-                            <p style="display:inline" class="vol-button" onclick="nextPage()">Next</p>
+                            <p style="display:inline; margin-left: 40%" class="vol-button" onclick="prevPage()">Пред.</p>
+                            <p style="display:inline" class="vol-button" onclick="nextPage()">След.</p>
                             
                         </div>
                     </div>
@@ -89,7 +88,7 @@
 
     <footer>
         <script src="js/main.js"></script>
-        <script src="js/test.js"></script>
+        <!-- <script src="js/test.js"></script> -->
 
     </footer>
 </body>

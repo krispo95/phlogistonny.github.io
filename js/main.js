@@ -4,9 +4,9 @@ var articles = localStorage.getItem(ARTICLES_KEY);
 if (articles == null) {
     articles = [
         {
-            title: "First",
+            title: "Firsgfcvbt",
             text: "First text",
-        },
+        }
     ];
 } else {
     articles = JSON.parse(articles);
